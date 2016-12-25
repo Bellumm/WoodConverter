@@ -9,7 +9,7 @@ public class ScrollCraft {
 	public static void init() 
 	{	
 		
-		//Planks
+		//-Planks
 		GameRegistry.addRecipe(new ItemStack(Blocks.PLANKS, 9, 1), 
 				"AAA",
 				"AAA",
@@ -52,7 +52,7 @@ public class ScrollCraft {
 				'A', new ItemStack(Blocks.PLANKS, 9, 5)
 			);
 		
-		//Stairs
+		//-Stairs
 		GameRegistry.addRecipe(new ItemStack(Blocks.SPRUCE_STAIRS, 9), 
 				"AAA",
 				"AAA",
@@ -95,6 +95,7 @@ public class ScrollCraft {
 				'A', new ItemStack(Blocks.DARK_OAK_STAIRS, 9)
 			);
 		
+		//-Logs
 		GameRegistry.addRecipe(new ItemStack(Blocks.LOG, 9, 1), 
 				"AAA",
 				"AAA",
@@ -137,7 +138,7 @@ public class ScrollCraft {
 				'A', new ItemStack(Blocks.LOG2, 9, 1)
 			);
 		
-		//Slabs
+		//-Slabs
 		GameRegistry.addRecipe(new ItemStack(Blocks.WOODEN_SLAB, 9, 1), 
 				"AAA",
 				"AAA",
@@ -309,7 +310,7 @@ public class ScrollCraft {
 				'A', new ItemStack(Blocks.SAPLING, 9, 5)
 			);
 		
-		//Plank - Log
+		//-Plank - Log
 		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.LOG, 1, 0), new ItemStack(Blocks.PLANKS, 1, 0), new ItemStack(Blocks.PLANKS, 1, 0),
 				new ItemStack(Blocks.PLANKS, 1, 0), new ItemStack(Blocks.PLANKS, 1, 0));
 		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.LOG, 1, 1), new ItemStack(Blocks.PLANKS, 1, 1), new ItemStack(Blocks.PLANKS, 1, 1),
