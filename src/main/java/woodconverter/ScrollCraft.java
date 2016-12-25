@@ -224,7 +224,7 @@ public class ScrollCraft {
 				'A', new ItemStack(Blocks.DARK_OAK_FENCE, 9)
 			);
 		
-		//Leaves
+		//-Leaves
 		GameRegistry.addRecipe(new ItemStack(Blocks.LEAVES, 9, 1), 
 				"AAA",
 				"AAA",
@@ -325,17 +325,17 @@ public class ScrollCraft {
 				new ItemStack(Blocks.PLANKS, 1, 5), new ItemStack(Blocks.PLANKS, 1, 5));
 		
 		//Door
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.SPRUCE_DOOR), new ItemStack(Blocks.OAK_DOOR), new ItemStack(Blocks.OAK_DOOR),
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.SPRUCE_DOOR, 3), new ItemStack(Blocks.OAK_DOOR), new ItemStack(Blocks.OAK_DOOR),
 				new ItemStack(Blocks.OAK_DOOR));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.BIRCH_DOOR), new ItemStack(Blocks.SPRUCE_DOOR), new ItemStack(Blocks.SPRUCE_DOOR),
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.BIRCH_DOOR, 3), new ItemStack(Blocks.SPRUCE_DOOR), new ItemStack(Blocks.SPRUCE_DOOR),
 				new ItemStack(Blocks.SPRUCE_DOOR));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.JUNGLE_DOOR), new ItemStack(Blocks.BIRCH_DOOR), new ItemStack(Blocks.BIRCH_DOOR),
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.JUNGLE_DOOR, 3), new ItemStack(Blocks.BIRCH_DOOR), new ItemStack(Blocks.BIRCH_DOOR),
 				new ItemStack(Blocks.BIRCH_DOOR));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.ACACIA_DOOR), new ItemStack(Blocks.JUNGLE_DOOR), new ItemStack(Blocks.JUNGLE_DOOR),
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.ACACIA_DOOR, 3), new ItemStack(Blocks.JUNGLE_DOOR), new ItemStack(Blocks.JUNGLE_DOOR),
 				new ItemStack(Blocks.JUNGLE_DOOR));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.DARK_OAK_DOOR), new ItemStack(Blocks.ACACIA_DOOR), new ItemStack(Blocks.ACACIA_DOOR),
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.DARK_OAK_DOOR, 3), new ItemStack(Blocks.ACACIA_DOOR), new ItemStack(Blocks.ACACIA_DOOR),
 				new ItemStack(Blocks.ACACIA_DOOR));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.OAK_DOOR), new ItemStack(Blocks.DARK_OAK_DOOR), new ItemStack(Blocks.DARK_OAK_DOOR),
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.OAK_DOOR, 3), new ItemStack(Blocks.DARK_OAK_DOOR), new ItemStack(Blocks.DARK_OAK_DOOR),
 				new ItemStack(Blocks.DARK_OAK_DOOR));
 		
 		//Fence Gate
