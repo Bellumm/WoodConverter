@@ -226,7 +226,7 @@ public class ScrollCraft {
 				'A', new ItemStack(Blocks.DARK_OAK_FENCE, 9)
 			);
 		
-		//-Leaves
+		//Leaves
 		GameRegistry.addRecipe(new ItemStack(Blocks.LEAVES, 9, 1), 
 				"AAA",
 				"AAA",
@@ -312,7 +312,7 @@ public class ScrollCraft {
 				'A', new ItemStack(Blocks.SAPLING, 9, 5)
 			);
 		
-		//-Plank - Log
+		//Plank - Log
 		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.LOG, 1, 0), new ItemStack(Blocks.PLANKS, 1, 0), new ItemStack(Blocks.PLANKS, 1, 0),
 				new ItemStack(Blocks.PLANKS, 1, 0), new ItemStack(Blocks.PLANKS, 1, 0));
 		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.LOG, 1, 1), new ItemStack(Blocks.PLANKS, 1, 1), new ItemStack(Blocks.PLANKS, 1, 1),
