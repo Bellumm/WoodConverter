@@ -1,6 +1,8 @@
 package woodconverter;
 
+import net.minecraft.block.BlockDoor;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -325,18 +327,18 @@ public class ScrollCraft {
 				new ItemStack(Blocks.PLANKS, 1, 5), new ItemStack(Blocks.PLANKS, 1, 5));
 		
 		//Door
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.SPRUCE_DOOR, 3), new ItemStack(Blocks.OAK_DOOR), new ItemStack(Blocks.OAK_DOOR),
-				new ItemStack(Blocks.OAK_DOOR));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.BIRCH_DOOR, 3), new ItemStack(Blocks.SPRUCE_DOOR), new ItemStack(Blocks.SPRUCE_DOOR),
-				new ItemStack(Blocks.SPRUCE_DOOR));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.JUNGLE_DOOR, 3), new ItemStack(Blocks.BIRCH_DOOR), new ItemStack(Blocks.BIRCH_DOOR),
-				new ItemStack(Blocks.BIRCH_DOOR));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.ACACIA_DOOR, 3), new ItemStack(Blocks.JUNGLE_DOOR), new ItemStack(Blocks.JUNGLE_DOOR),
-				new ItemStack(Blocks.JUNGLE_DOOR));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.DARK_OAK_DOOR, 3), new ItemStack(Blocks.ACACIA_DOOR), new ItemStack(Blocks.ACACIA_DOOR),
-				new ItemStack(Blocks.ACACIA_DOOR));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.OAK_DOOR, 3), new ItemStack(Blocks.DARK_OAK_DOOR), new ItemStack(Blocks.DARK_OAK_DOOR),
-				new ItemStack(Blocks.DARK_OAK_DOOR));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.SPRUCE_DOOR, 3), new ItemStack(Items.OAK_DOOR), new ItemStack(Items.OAK_DOOR),
+				new ItemStack(Items.OAK_DOOR));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.BIRCH_DOOR, 3), new ItemStack(Items.SPRUCE_DOOR), new ItemStack(Items.SPRUCE_DOOR),
+				new ItemStack(Items.SPRUCE_DOOR));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.JUNGLE_DOOR, 3), new ItemStack(Items.BIRCH_DOOR), new ItemStack(Items.BIRCH_DOOR),
+				new ItemStack(Items.BIRCH_DOOR));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.ACACIA_DOOR, 3), new ItemStack(Items.JUNGLE_DOOR), new ItemStack(Items.JUNGLE_DOOR),
+				new ItemStack(Items.JUNGLE_DOOR));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.DARK_OAK_DOOR, 3), new ItemStack(Items.ACACIA_DOOR), new ItemStack(Items.ACACIA_DOOR),
+				new ItemStack(Items.ACACIA_DOOR));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.OAK_DOOR, 3), new ItemStack(Items.DARK_OAK_DOOR), new ItemStack(Items.DARK_OAK_DOOR),
+				new ItemStack(Items.DARK_OAK_DOOR));
 		
 		//Fence Gate
 		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.SPRUCE_FENCE_GATE, 3), new ItemStack(Blocks.OAK_FENCE_GATE), new ItemStack(Blocks.OAK_FENCE_GATE),
@@ -351,5 +353,6 @@ public class ScrollCraft {
 				new ItemStack(Blocks.ACACIA_FENCE_GATE));
 		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.OAK_FENCE_GATE, 3), new ItemStack(Blocks.DARK_OAK_FENCE_GATE), new ItemStack(Blocks.DARK_OAK_FENCE_GATE),
 				new ItemStack(Blocks.DARK_OAK_FENCE_GATE));
+
 	}
 }
