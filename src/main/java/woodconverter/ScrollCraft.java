@@ -266,6 +266,49 @@ public class ScrollCraft {
 				'A', new ItemStack(Blocks.LEAVES2, 9, 1)
 			);
 		
+		//Saplings
+		GameRegistry.addRecipe(new ItemStack(Blocks.SAPLING, 9, 1), 
+				"AAA",
+				"AAA",
+				"AAA",
+				'A', new ItemStack(Blocks.SAPLING, 9, 0)
+			);
+		
+		GameRegistry.addRecipe(new ItemStack(Blocks.SAPLING, 9, 2), 
+				"AAA",
+				"AAA",
+				"AAA",
+				'A', new ItemStack(Blocks.SAPLING, 9, 1)
+			);
+		
+		GameRegistry.addRecipe(new ItemStack(Blocks.SAPLING, 9, 3), 
+				"AAA",
+				"AAA",
+				"AAA",
+				'A', new ItemStack(Blocks.SAPLING, 9, 2)
+			);
+		
+		GameRegistry.addRecipe(new ItemStack(Blocks.SAPLING, 9, 4), 
+				"AAA",
+				"AAA",
+				"AAA",
+				'A', new ItemStack(Blocks.SAPLING, 9, 3)
+			);
+		
+		GameRegistry.addRecipe(new ItemStack(Blocks.SAPLING, 9, 5), 
+				"AAA",
+				"AAA",
+				"AAA",
+				'A', new ItemStack(Blocks.SAPLING, 9, 4)
+			);
+		
+		GameRegistry.addRecipe(new ItemStack(Blocks.SAPLING, 9, 0), 
+				"AAA",
+				"AAA",
+				"AAA",
+				'A', new ItemStack(Blocks.SAPLING, 9, 5)
+			);
+		
 		//Plank - Log
 		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.LOG, 1, 0), new ItemStack(Blocks.PLANKS, 1, 0), new ItemStack(Blocks.PLANKS, 1, 0),
 				new ItemStack(Blocks.PLANKS, 1, 0), new ItemStack(Blocks.PLANKS, 1, 0));

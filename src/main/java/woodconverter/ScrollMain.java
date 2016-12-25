@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = ScrollInfo.MOD_ID, name = ScrollInfo.NAME, version = ScrollInfo.VERSION, acceptedMinecraftVersions = ScrollInfo.ACCEPTED_VERSIONS)
-public class Main {
+public class ScrollMain {
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) 
